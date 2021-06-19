@@ -1,10 +1,10 @@
 <?php
 	// koneksi database
 
-	$con = mysqli_connect("localhost", "root", "", "db_warehouse");
+	$ con = mysqli_connect ( "localhost" , "root" , "" , "dbta" );
 
-	if (!$con) {
-		echo 'Error : '.mysqli_connect_error($con);
+	jika (! $ kon ) {
+		echo  'Kesalahan:' . mysqli_connect_error ( $ con );
 	}
 
 ?>
